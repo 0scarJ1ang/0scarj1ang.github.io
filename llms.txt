@@ -31,7 +31,7 @@ My research focuses on robot learning, with an emphasis on **building good robot
 
 ## News
 
-- 2026-4: Our work GSSIP has been accepted to RSS 2026 (Oral) 🎉
+- 2026-4: Our work GSSIP has been accepted to R:SS 2026 (Oral) 🎉
 - 2024-8: Starting my PhD at the National University of Singapore
 
 ## Publications
@@ -50,7 +50,7 @@ Abstract: Robots that learn from a few demonstrations often require two forms of
 
 ### Guided Streaming Stochastic Interpolant Policy
 
-Puming Jiang*, Meiyi Wang*, Kelvin Lin, Ce Hao, Harold Soh. RSS 2026 (Oral).
+Puming Jiang*, Meiyi Wang*, Kelvin Lin, Ce Hao, Harold Soh. R:SS 2026 (Oral).
 
 Inference-time guidance steers streaming robot policies toward changing objectives without retraining, enabling fast and reactive control.
 
