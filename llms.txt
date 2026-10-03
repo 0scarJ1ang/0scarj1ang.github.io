@@ -27,7 +27,7 @@ Before joining NUS, I completed a B.A. in Engineering and an M.Eng. at the Unive
 My research focuses on robot learning, with an emphasis on **building good robot policies**: policies that work beyond their demonstrations, and that high-level reasoning can understand and invoke correctly.
 
 - **Policies That Generalize and Adapt**: A policy is trained once, but its objectives keep changing after deployment. How can it generalize beyond its demonstrations and adapt to new objectives without retraining?
-- **Policies That Planners Can Understand**: Planners usually see a skill only through a name or an instruction. How can high-level reasoning understand what a policy can do and where it works, and invoke it correctly?
+- **Policies That Planners Can Understand and Compose**: Planners usually see a skill only through a name or an instruction. How can high-level reasoning understand what a policy can do and where it works, and invoke it correctly?
 
 ## News
 
