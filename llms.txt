@@ -1,0 +1,102 @@
+# Oscar Puming Jiang
+
+> PhD student at the National University of Singapore working on robot learning: learning, understanding, and composing robot policies.
+
+- Also known as: Puming Jiang, Oscar Jiang
+- Position: PhD student, National University of Singapore
+- Location: Singapore
+- Research topics: Robot Learning, Imitation Learning, Generative Robot Policies, Inference-Time Guidance, Structural Priors, Skill Composition, Embodied AI
+- Contact: p.jiang (at) u.nus.edu
+- Profiles: https://github.com/0scarJ1ang, https://www.linkedin.com/in/puming-jiang-a2b312420/
+
+## Pages
+
+- [About](https://0scarj1ang.github.io/)
+- [Publications](https://0scarj1ang.github.io/publications/)
+- [Teaching](https://0scarj1ang.github.io/teaching/)
+- [CV](https://0scarj1ang.github.io/cv/)
+
+## About
+
+I am a PhD student at the School of Computing, National University of Singapore, advised by [Prof. Harold Soh](https://haroldsoh.com).
+
+Before joining NUS, I completed a B.A. in Engineering and an M.Eng. at the University of Cambridge, followed by an M.Res. at Imperial College London, where I was supervised by Dr. Nicole Salomons. I received First Class Honours / Distinction across my previous degrees.
+
+## Research
+
+My research focuses on robot learning, with an emphasis on **building good robot policies**: policies that work beyond their demonstrations, and that high-level reasoning can understand and invoke correctly.
+
+- **Policies That Generalize and Adapt**: A policy is trained once, but its objectives keep changing after deployment. How can it generalize beyond its demonstrations and adapt to new objectives without retraining?
+- **Policies That Planners Can Understand**: Planners usually see a skill only through a name or an instruction. How can high-level reasoning understand what a policy can do and where it works, and invoke it correctly?
+
+## News
+
+- 2026-4: Our work GSSIP has been accepted to RSS 2026 (Oral) 🎉
+- 2024-8: Starting my PhD at the National University of Singapore
+
+## Publications
+
+Authors marked with * contributed equally.
+
+### Agent Priors-guided Policy Learning
+
+Puming Jiang*, Tianrun Hu*, Haozhe Du, Yibo Li, Zhiwei Xue, Xinhu Li, Harold Soh. arXiv 2026.
+
+Structural priors connect learning reusable robot policies with understanding where they work and composing them for new tasks.
+
+Links: [Website](https://agentics-robotics.github.io/APPL/), [arXiv](https://arxiv.org/abs/2609.35690), [Code](https://github.com/Agentics-robotics/Agent-Priors-guided-Policy-Learning)
+
+Abstract: Robots that learn from a few demonstrations often require two forms of generalization. Compositional generalization recombines skills to solve new tasks, and skill generalization lets the learned policy behind each skill work in new situations. The two depend on each other, yet information is lost between composition and the skills it calls. Where a skill works is determined by the structure its policy is trained with, while composition sees the skill only through a separate description, such as a name, an instruction, or a symbolic operator, that omits this structure. Our key idea is to use each policy's structural prior as part of the interface between composition and the skill. A structural prior states what a behavior depends on, for example that a grasp depends only on the gripper's pose relative to the object. Built into training, it shapes where the policy generalizes; stated in language, it tells composition where the policy applies. We instantiate this idea in Agent Priors-guided Policy Learning (APPL). A construction agent segments complete demonstrations into reusable skills, proposes several structural priors for each skill, and trains and verifies one policy per prior. A runtime agent then selects among these prior-specific policies and composes them toward new task goals using their interfaces. Across MetaWorld and long-horizon ManiSkill tasks, APPL improves out-of-distribution skill generalization and enables previously unseen skill compositions; ablating the interface information substantially reduces performance. These results support the use of training-time structural assumptions as a bridge between skill learning and skill composition.
+
+### Guided Streaming Stochastic Interpolant Policy
+
+Puming Jiang*, Meiyi Wang*, Kelvin Lin, Ce Hao, Harold Soh. RSS 2026 (Oral).
+
+Inference-time guidance steers streaming robot policies toward changing objectives without retraining, enabling fast and reactive control.
+
+Links: [arXiv](https://arxiv.org/abs/2605.10051v1), [Code](https://github.com/0scarJ1ang/guided-streaming-policy)
+
+Abstract: Inference-time guidance is essential for steering generative robot policies toward dynamic objectives without retraining, yet existing methods are largely confined to chunk-based architectures that exhibit high latency and lack the reactivity needed for test-time preference alignment or obstacle avoidance. In this work, we formally derive the optimal guidance term for Stochastic Interpolants (SI) by analyzing the value function's time evolution via the Backward Kolmogorov Equation, establishing a modified drift that theoretically guarantees sampling from a target distribution. We apply this framework to real-time control through the Streaming Stochastic Interpolant Policy (SSIP), which generalizes the deterministic Streaming Flow Policy (SFP). Unifying this guidance law with the streaming architecture enables fast and reactive control. To support diverse deployment needs, we propose two complementary mechanisms: training-free Stochastic Trajectory Ensemble Guidance (STEG) that computes gradients on-the-fly for zero-shot adaptation, and training-based Conditional Critic Guidance (CCG) for amortized inference. Empirical evaluations demonstrate that our guided streaming approach significantly outperforms conventional chunk-based policies in reactivity and provides superior, physically valid guidance for dynamic, unstructured environments.
+
+## Teaching
+
+I am committed to helping students build a strong conceptual foundation through clear explanations and constructive feedback. I aim to create a supportive learning environment that encourages questions, critical thinking, and connections between theory and practice.
+
+- **CS3264 Foundations of Machine Learning**: Teaching Assistant, 2026–2027. Foundations of machine learning, covering core theory and algorithms, supervised and unsupervised learning, and practical methods for learning from data.
+- **CS5340 Uncertainty Modelling in AI**: Teaching Assistant, 2025–2026. Reasoning under uncertainty with probabilistic graphical models, covering Bayesian and Markov networks, conditional independence, inference, and learning from data.
+
+## CV
+
+### Education
+
+**National University of Singapore**, PhD in Computer Science, *Aug 2024 - Present*  
+- School of Computing  
+- Supervisor: Prof. Harold Soh  
+
+
+**Imperial College London**, M.Res. in Robotics / Artificial Intelligence, *Oct 2023 - Sep 2024*  
+- Achieved Distinction
+- Supervisor: Dr. Nicole Salomons  
+- Individual research topic: *Intelligent Robotic Tutoring: Integrating Verbal Input for Personalising Learning Responses*  
+
+
+**University of Cambridge**, M.Eng. and B.A. in Information and Computer Engineering, *Oct 2019 - Jun 2023*  
+- M.Eng.: Distinction (First Class performance in both taught modules and research project)
+- B.A.: First Class Honours 
+
+
+
+### Awards & Honors
+
+
+- **Continuing Senior Scholarship**, Gonville and Caius College, University of Cambridge, 2022 
+- **Senior Scholarship**, Gonville and Caius College, University of Cambridge, 2021 
+
+### Service
+
+**Teaching**  
+- Teaching Assistant, CS3264: Foundations of Machine Learning, National University of Singapore, 2026–2027
+- Teaching Assistant, CS5340: Uncertainty Modelling in AI, National University of Singapore, 2025–2026
+
+**Reviewer**  
+- HRI, IROS, ICRA
