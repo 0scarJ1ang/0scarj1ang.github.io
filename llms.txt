@@ -40,7 +40,7 @@ Authors marked with * contributed equally.
 
 ### Agent Priors-guided Policy Learning
 
-Puming Jiang*, Tianrun Hu*, Haozhe Du, Yibo Li, Zhiwei Xue, Xinhu Li, Harold Soh. arXiv 2026 (LEAP Workshop @ CoRL 2026).
+Puming Jiang*, Tianrun Hu*, Haozhe Du, Yibo Li, Zhiwei Xue, Xinhu Li, Harold Soh. arXiv, LEAP Workshop @ CoRL 2026.
 
 Structural priors connect learning reusable robot policies with understanding where they work and composing them for new tasks.
 
