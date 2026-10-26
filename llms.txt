@@ -5,7 +5,7 @@
 - Also known as: Puming Jiang, Oscar Jiang
 - Position: PhD student, National University of Singapore
 - Location: Singapore
-- Research topics: Robot Learning, Reusable Robot Skills, Imitation Learning, Generative Robot Policies, Inference-Time Guidance, Structural Priors, Skill Composition, Embodied AI
+- Research topics: Robot Learning, Reusable Robot Skills, Imitation Learning, Generative Robot Policies, Inference-Time Guidance, Structural Priors, Skill Composition, Agentic Robot Systems, Embodied AI
 - Contact: p.jiang (at) u.nus.edu
 - Profiles: https://github.com/0scarJ1ang, https://www.linkedin.com/in/puming-jiang-a2b312420/
 
