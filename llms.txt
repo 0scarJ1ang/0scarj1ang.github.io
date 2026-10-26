@@ -1,11 +1,11 @@
 # Oscar Puming Jiang
 
-> PhD student at the National University of Singapore working on robot learning: learning, understanding, and composing robot policies.
+> PhD student at the National University of Singapore working on the reliable reuse of learned robot skills: expanding and understanding where a learned skill works.
 
 - Also known as: Puming Jiang, Oscar Jiang
 - Position: PhD student, National University of Singapore
 - Location: Singapore
-- Research topics: Robot Learning, Imitation Learning, Generative Robot Policies, Inference-Time Guidance, Structural Priors, Skill Composition, Embodied AI
+- Research topics: Robot Learning, Reusable Robot Skills, Imitation Learning, Generative Robot Policies, Inference-Time Guidance, Structural Priors, Skill Composition, Embodied AI
 - Contact: p.jiang (at) u.nus.edu
 - Profiles: https://github.com/0scarJ1ang, https://www.linkedin.com/in/puming-jiang-a2b312420/
 
@@ -24,10 +24,10 @@ Before joining NUS, I completed a B.A. in Engineering and an M.Eng. at the Unive
 
 ## Research
 
-My research focuses on robot learning, with an emphasis on **building good robot policies**: policies that work beyond their demonstrations, and that high-level reasoning can understand and invoke correctly.
+My research focuses on the **reliable reuse of learned robot skills**. Every learned skill works only within some boundary of conditions. I study how to expand that boundary and how to know where it lies, so a robot can tell when a skill can be trusted.
 
-- **Policies That Generalize and Adapt**: A policy is trained once, but its objectives keep changing after deployment. How can it generalize beyond its demonstrations and adapt to new objectives without retraining?
-- **Policies That Planners Can Understand and Compose**: Planners usually see a skill only through a name or an instruction. How can high-level reasoning understand what a policy can do and where it works, and invoke it correctly?
+- **Expanding the Skill Boundary**: A policy is trained once, but new objectives and constraints keep arriving. How can we widen where it works, both by shaping what it learns and by steering it at deployment?
+- **Understanding the Skill Boundary**: A skill's name says little about where it succeeds. How can we predict where a learned policy works, and state it in a form that planners and agents can use to invoke and compose it correctly?
 
 ## News
 
