@@ -38,6 +38,16 @@ My research focuses on the **reliable reuse of learned robot skills**. Every lea
 
 Authors marked with * contributed equally.
 
+### Towards Human-Centered Safety in Vision-Language-Action Robot Control: A Survey and Outlook
+
+Nhat Chung, Toan Nguyen, Tianrun Hu, Yun Xing, Puming Jiang, Tuan-Anh Vu, Bohao Qu, Yedi Zhang, Yue Cao, Jie Zhang, Qing Guo, Yue Wang, Ming-Ming Cheng, Jin Song Dong, Cheston Tan, Harold Soh, David Hsu, Daniel Seita, Ivor Tsang. Preprints.org.
+
+A survey of human-centered safety for Vision-Language-Action models, tracing how safety-relevant semantics shape robot actions from design to deployment and validation.
+
+Links: [DOI](https://doi.org/10.20944/preprints202610.2762.v1)
+
+Abstract: As Vision-Language-Action (VLA) models couple perception and language understanding with physical action in human-shared environments, safety depends on whether they capture relevant information about people, environments, and social context and use it to shape robot behavior. We therefore center this survey on semantic-to-action causality towards human-centered robot safety, examining how safety-relevant semantics remain consequential for actions that preserve human well-being, environmental integrity, and social compliance. To trace this relationship from learning through execution to validation, we organize the literature across design-time methods that shape how safety-relevant features are learned, deployment-time mechanisms that govern their influence on behavior, and validation-time approaches that assess their effectiveness under safety-critical conditions. Across these stages, we identify four linked requirements, safety boundary coverage, semantic-to-action fidelity, contextual intervention and recovery, and incident-path validation, which describe how safety-relevant information must be captured, preserved, enforced, and evidenced. These requirements expose corresponding open challenges in sparse boundary examples, limited causal verifiability, gaps in intervention timing and recovery, and incomplete incident attribution.
+
 ### Agent Priors-guided Policy Learning
 
 Puming Jiang*, Tianrun Hu*, Haozhe Du, Yibo Li, Zhiwei Xue, Xinhu Li, Harold Soh. arXiv, LEAP Workshop @ CoRL 2026.
@@ -99,4 +109,4 @@ I am committed to helping students build a strong conceptual foundation through 
 - Teaching Assistant, CS5340: Uncertainty Modelling in AI, National University of Singapore, 2025–2026
 
 **Reviewer**  
-- HRI, IROS, ICRA
+- R:SS, ICRA, IROS, HRI
